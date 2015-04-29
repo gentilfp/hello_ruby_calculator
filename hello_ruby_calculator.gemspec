@@ -6,12 +6,13 @@ require 'hello_ruby_calculator/version'
 Gem::Specification.new do |spec|
   spec.name          = "hello_ruby_calculator"
   spec.version       = HelloRubyCalculator::VERSION
-  spec.authors       = ["Ruby"]
+  spec.authors       = ["Felipe Pelizaro Gentil"]
   spec.email         = ["ruby@rails.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{Simple Calculator to introduce Ruby in Hello Ruby course}
+  spec.description   = %q{It simply performs the four basic math operations}
+  spec.homepage      = ""
+  spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
   # delete this section to allow pushing this gem to any host.
